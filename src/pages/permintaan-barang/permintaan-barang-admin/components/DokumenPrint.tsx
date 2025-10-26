@@ -10,7 +10,7 @@ const DokumenPrintMintaBarang = forwardRef(
 
     return (
       <section ref={ref} className="dokumen-print m-8 !text-black space-y-8 ">
-        <img src="/binamarga/KopSurat.png" alt="Kop Surat" />
+        {/* <img src="/binamarga/KopSurat.png" alt="Kop Surat" /> */}
         <h2 className="text-center text-[14px] uppercase font-bold">
           Tanda Terima Barang
         </h2>
@@ -70,12 +70,6 @@ const DokumenPrintMintaBarang = forwardRef(
               <p className="text-[11px] font-light">
                 {findNamaUser(data[0]?.id_user)?.fullname}
               </p>
-              <p className="text-[11px] font-light">
-                <span className="uppercase">
-                  {findNamaUser(data[0]?.id_user)?.tipe_identitas}
-                </span>
-                . {findNamaUser(data[0]?.id_user)?.no_identitas}
-              </p>
             </div>
             <div className="flex flex-col text-center">
               <p className="text-[11px] font-normal">
@@ -88,12 +82,6 @@ const DokumenPrintMintaBarang = forwardRef(
               <br />
               <p className="text-[11px] font-light">
                 {findNamaUser(data[0]?.disetujui_oleh)?.fullname}
-              </p>
-              <p className="text-[11px] font-light">
-                <span className="uppercase">
-                  {findNamaUser(data[0]?.disetujui_oleh)?.tipe_identitas}
-                </span>
-                . {findNamaUser(data[0]?.disetujui_oleh)?.no_identitas}
               </p>
             </div>
           </section>

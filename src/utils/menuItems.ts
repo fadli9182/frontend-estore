@@ -2,7 +2,7 @@ export const menuItems = [
   {
     name: "Beranda",
     id: "beranda",
-    icon: "/binamarga/icons/beranda-icon.svg",
+    icon: "/estore/icons/beranda-icon.svg",
     collapsed: false,
     role: ["admin"],
     link: "/",
@@ -10,7 +10,7 @@ export const menuItems = [
   {
     name: "Supplier",
     id: "supplier",
-    icon: "/binamarga/icons/supplier-icon.svg",
+    icon: "/estore/icons/supplier-icon.svg",
     collapsed: false,
     role: ["admin"],
     link: "/supplier",
@@ -18,7 +18,7 @@ export const menuItems = [
   {
     name: "User Management",
     id: "user-management",
-    icon: "/binamarga/icons/user-icon.svg",
+    icon: "/estore/icons/user-icon.svg",
     collapsed: false,
     role: ["admin"],
     link: "/user-management",
@@ -26,7 +26,7 @@ export const menuItems = [
   {
     name: "Master Data",
     id: "master-data",
-    icon: "/binamarga/icons/database-icon.svg",
+    icon: "/estore/icons/database-icon.svg",
     collapsed: true,
     role: ["admin"],
     children: [
@@ -55,7 +55,7 @@ export const menuItems = [
   {
     name: "Barang Masuk",
     id: "barang-masuk",
-    icon: "/binamarga/icons/barangmasuk-icon.svg",
+    icon: "/estore/icons/barangmasuk-icon.svg",
     collapsed: false,
     role: ["admin"],
     link: "/barang-masuk",
@@ -63,7 +63,7 @@ export const menuItems = [
   {
     name: "Daftar Barang",
     id: "daftar-barang-user",
-    icon: "/binamarga/icons/database-icon.svg",
+    icon: "/estore/icons/database-icon.svg",
     collapsed: false,
     role: ["user"],
     link: "/permintaan-barang-user",
@@ -71,7 +71,7 @@ export const menuItems = [
   {
     name: "Daftar Permintaan Barang",
     id: "minta-barang-user",
-    icon: "/binamarga/icons/daftarpermintaan-icon.svg",
+    icon: "/estore/icons/daftarpermintaan-icon.svg",
     collapsed: false,
     role: ["user"],
     link: "/list-permintaan-barang-user",
@@ -79,7 +79,7 @@ export const menuItems = [
   {
     name: "Daftar Permintaan Barang Oleh Admin",
     id: "minta-barang-user-admin",
-    icon: "/binamarga/icons/daftarpermintaan-icon.svg",
+    icon: "/estore/icons/daftarpermintaan-icon.svg",
     collapsed: false,
     role: ["admin"],
     link: "/list-permintaan-barang-user-admin",
@@ -87,7 +87,7 @@ export const menuItems = [
   {
     name: "Permintaan Barang",
     id: "minta-barang-admin",
-    icon: "/binamarga/icons/permintaan-icon.svg",
+    icon: "/estore/icons/permintaan-icon.svg",
     collapsed: false,
     role: ["admin"],
     link: "/permintaan-barang",
@@ -96,7 +96,7 @@ export const menuItems = [
   {
     name: "Laporan",
     id: "laporan",
-    icon: "/binamarga/icons/paper-icon.svg",
+    icon: "/estore/icons/paper-icon.svg",
     collapsed: true,
     role: ["admin"],
     children: [

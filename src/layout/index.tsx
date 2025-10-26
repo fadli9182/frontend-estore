@@ -67,7 +67,7 @@ const Layout: React.FC<TLayoutProps> = ({ children }) => {
             <Link to="/">
               <div className="flex gap-3 justify-center items-center">
                 <div className="p-[1px] bg-white ">
-                  <img src="/images/favicon.ico" alt="" width={40} />
+                  <img src="/images/LogoEstore.png" alt="" width={40} />
                 </div>
                 <p className="text-white text-xl font-sans drop-shadow-xl">
                   EStore

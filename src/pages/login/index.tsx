@@ -47,12 +47,12 @@ const LoginPage = () => {
           <h1 className="text-3xl font-bold">Selamat Datang di</h1>
           <div className="text-center"></div>
           <img
-            src="/images/LogoBinaMarga.JPG"
+            src="/images/LogoEstore.png"
             alt=""
             width={200}
             className="text-center mx-auto rounded-xl"
           />
-          <p>Website Persediaan Kepegawaian dan Umum</p>
+          <p>Website Persediaan Barang Elektronik dan Aksesoris</p>
         </div>
       </div>
       <div className="rounded-xl flex justify-center items-center flex-auto">
@@ -60,7 +60,7 @@ const LoginPage = () => {
           <form onSubmit={handleSubmit(onSubmit)} className="w-full">
             {/* <h1 className="text-4xl text-center font-serif">Logo</h1> */}
             <img
-              src="/images/LogoBinaMarga.JPG"
+              src="/images/LogoEstore.png"
               alt=""
               width={200}
               className="text-center mx-auto block md:hidden"

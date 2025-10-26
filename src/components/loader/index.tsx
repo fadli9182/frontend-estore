@@ -6,7 +6,7 @@ const Loader: React.FC = () => (
     <div className="bg-yellow-400 w-32 h-32 absolute animate-ping rounded-full shadow-xl"></div>
     <div className="w-24 h-24 absolute animate-pulse rounded-full shadow-xl"></div>
     <img
-      src="/images/LogoBinaMarga.JPG"
+      src="/images/LogoLoading.JPG"
       alt="banner-login"
       className="z-50 w-20 h-20"
     />

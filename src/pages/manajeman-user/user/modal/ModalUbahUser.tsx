@@ -115,14 +115,6 @@ const ModalUbahUser = ({ dataUser, refetch, open, setOpen }) => {
               />
 
               <FormInput
-                name="no_identitas"
-                types={"text"}
-                type={""}
-                label={"NIP/NRP/NIK"}
-                placeholder={"Masukan NIP/NRP/NIK"}
-              />
-
-              <FormInput
                 name={"username"}
                 types={"text"}
                 type={""}
@@ -157,6 +149,8 @@ const ModalUbahUser = ({ dataUser, refetch, open, setOpen }) => {
                 placeholder={"Masukan No. Whatsapp"}
                 type={""}
               />
+
+              <div></div>
 
               <FormInput
                 name={"current_password"}
