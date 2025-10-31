@@ -131,25 +131,12 @@ const LaporanPengeluaranPage = () => {
       {
         accessorFn: (row) => row.nama_user,
         id: "nama_user",
-        header: () => <span>Nama Pegawai</span>,
+        header: () => <span>Nama Pemesan</span>,
         cell: (info) => <span>{info.getValue()}</span>,
         footer: (props) => props.column.id,
         enableColumnFilter: false,
       },
-      {
-        accessorFn: (row) => row.nama_ruang_kerja,
-        id: "nama_ruang_kerja",
-        header: () => <span>Nama Ruang Kerja</span>,
-        cell: (info) => {
-          return (
-            <span>
-              {findNamaUser(info.row.original.id_user)?.nama_ruang_kerja}
-            </span>
-          );
-        },
-        footer: (props) => props.column.id,
-        enableColumnFilter: false,
-      },
+
       {
         accessorFn: (row) => row.nama_barang,
         id: "nama_barang",
